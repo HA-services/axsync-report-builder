@@ -1,0 +1,7 @@
+id,name,model_id,group_id/id,operation,domain
+access_axs_report_manager,axs.report manager,axs.report,group_report_manager,crud,
+access_axs_report_line_manager,axs.report.line manager,axs.report.line,group_report_manager,crud,
+access_axs_report_import_manager,axs.report.import manager,axs.report.import,group_report_manager,crud,
+access_ir_model_axs_report_manager,ir.model axs report manager,ir.model,group_report_manager,r,
+access_ir_model_fields_axs_report_manager,ir.model.fields axs report manager,ir.model.fields,group_report_manager,r,
+axs_report_company_rule,Report Builder: multi-company,axs.report,,crud,"['|', ('company_id', '=', False), ('company_id', 'in', company_ids)]"

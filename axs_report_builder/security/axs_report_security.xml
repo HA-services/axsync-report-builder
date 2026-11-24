@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="group_report_manager" model="res.groups">
+        <field name="name">Report Builder Manager</field>
+        <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+        <field name="comment">Creates, edits, publishes and deletes Report Builder reports.</field>
+    </record>
+    <record id="base.group_system" model="res.groups">
+        <field name="implied_ids" eval="[(4, ref('group_report_manager'))]"/>
+    </record>
+</odoo>

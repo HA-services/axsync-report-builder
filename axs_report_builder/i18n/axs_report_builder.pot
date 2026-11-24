@@ -1,0 +1,1140 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* axs_report_builder
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-24 12:29+0000\n"
+"PO-Revision-Date: 2026-11-24 12:29+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "%(shown)s of %(total)s rows, computed with your access rights."
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "%s (copy)"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "%s rows."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,help:axs_report_builder.field_axs_report__query_text
+msgid ""
+"A single SELECT (or WITH ... SELECT). Placeholders: {{uid}}, {{company_id}},"
+" {{company_ids}}, {{lang}}, {{today}}."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.module.module,description:base.module_axs_report_builder
+msgid "AXSync Report Builder Pro: custom reports without development."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__alter_op__abs
+msgid "Absolute value"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__group_ids
+msgid "Access Groups"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__action_id
+msgid "Action"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__active
+msgid "Active"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__alter_op__add
+msgid "Add"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "Add at least one column to the report."
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "Add recipients with an email address."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__alter_value
+msgid "Alter Value"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__alter_op
+msgid "Alter Values"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__apply_record_rules
+msgid "Apply Access Rules"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_search
+msgid "Archived"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,help:axs_report_builder.field_axs_report_line__group_filter
+msgid "Available in the Group By menu."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__aggregator__avg
+msgid "Average"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report__graph_type__bar
+msgid "Bar"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.module.module,summary:base.module_axs_report_builder
+msgid ""
+"Build list, pivot and graph reports from any Odoo model and its related "
+"records, or from a SQL query, with menus, access groups, filters, totals and"
+" scheduled Excel emails."
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.actions.act_window,help:axs_report_builder.action_axs_report
+msgid "Build your first report"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_import_view_form
+msgid "Cancel"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__alter_op__negate
+msgid "Change sign"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "Change the filters or come back later."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__result_type__boolean
+msgid "Checkbox"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "Choose the model of the report."
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "Click Preview to see the first rows."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__pivot_role__col
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_line_view_form
+msgid "Column"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "Column '%s' has no field."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__name
+msgid "Column Label"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__line_ids
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "Columns"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__company_id
+msgid "Company"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__create_uid
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_import__create_uid
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__create_date
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_import__create_date
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:res.groups,comment:axs_report_builder.group_report_manager
+msgid "Creates, edits, publishes and deletes Report Builder reports."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__query_text
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report__query_type__custom_query
+msgid "Custom Query"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,help:axs_report_builder.field_axs_report_line__relation_model_id
+msgid ""
+"Custom queries: the column contains IDs of this model. The report shows "
+"names and links."
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_line_view_form
+msgid "Data"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__result_type__date
+msgid "Date"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__result_type__datetime
+msgid "Date & Time"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__result_type__float
+msgid "Decimal"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__default_group
+msgid "Default Group"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_import__file
+msgid "Definition File"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__order_desc
+msgid "Descending"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__description
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "Description"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_line_view_form
+msgid "Display"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__display_name
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_import__display_name
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__display_name
+#: model:ir.model.fields,field_description:axs_report_builder.field_ir_model__display_name
+#: model:ir.model.fields,field_description:axs_report_builder.field_ir_model_fields__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__alter_op__divide
+msgid "Divide by"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report__state__draft
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_search
+msgid "Draft"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "Each column of the query needs a different name (use AS)."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,help:axs_report_builder.field_axs_report__apply_record_rules
+msgid ""
+"Each user only sees the records of the model that his access rules allow "
+"(companies, teams...). Uncheck to show every record to the users who can "
+"open the report."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report__email_interval__daily
+msgid "Every day"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "Every internal user"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report__email_interval__monthly
+msgid "Every month"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report__email_interval__weekly
+msgid "Every week"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "Export Definition"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model,name:axs_report_builder.model_ir_model_fields
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__level1_id
+msgid "Field"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__field_chain
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report__query_type__field_chain
+msgid "Field Chain"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_import__filename
+msgid "Filename"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_line_view_form
+msgid "Filters and Analysis"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__alter_op__trunc_month
+msgid "First day of the month"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__alter_op__trunc_quarter
+msgid "First day of the quarter"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__alter_op__trunc_week
+msgid "First day of the week"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__alter_op__trunc_year
+msgid "First day of the year"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__email_interval
+msgid "Frequency"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__report_model_id
+msgid "Generated Model"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__graph_role
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report__default_view__graph
+msgid "Graph"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__graph_type
+msgid "Graph Type"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__show_graph
+msgid "Graph View"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__graph_role__group
+msgid "Group"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__group_filter
+msgid "Group By"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,help:axs_report_builder.field_axs_report_line__default_group
+msgid "Group the report by this column when it opens."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,help:axs_report_builder.field_axs_report__group_ids
+msgid "Groups allowed to open the report. Empty: every internal user."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__id
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_import__id
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__id
+#: model:ir.model.fields,field_description:axs_report_builder.field_ir_model__id
+#: model:ir.model.fields,field_description:axs_report_builder.field_ir_model_fields__id
+msgid "ID"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_import_view_form
+msgid "Import"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.actions.act_window,name:axs_report_builder.action_axs_report_import
+#: model:ir.ui.menu,name:axs_report_builder.menu_axs_report_import
+msgid "Import Definitions"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model,name:axs_report_builder.model_axs_report_import
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_import_view_form
+msgid "Import Report Definitions"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/wizard/axs_report_import.py:0
+msgid "Imported Reports"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__list_visible
+msgid "In List"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__include_archived
+msgid "Include Archived Records"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__result_type__integer
+msgid "Integer"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/sql_builder.py:0
+msgid "Invalid SQL identifier: %s"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report_line.py:0
+msgid "Invalid field chain: %s"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "Invalid record filter: %s"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__email_last_sent
+msgid "Last Sent"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__write_uid
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_import__write_uid
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__write_date
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_import__write_date
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,help:axs_report_builder.field_axs_report__company_id
+msgid "Leave empty to share the report definition between companies."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__level1_model_id
+msgid "Level1 Model"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__level2_model_id
+msgid "Level2 Model"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__level3_model_id
+msgid "Level3 Model"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__level4_model_id
+msgid "Level4 Model"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report__graph_type__line
+msgid "Line"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__result_type__many2one
+msgid "Link"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__relation_model_id
+msgid "Link To"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report__default_view__list
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "List"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__result_type__text
+msgid "Long Text"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,help:axs_report_builder.field_axs_report__menu_sequence
+msgid "Lower numbers come first in the menu."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__aggregator__max
+msgid "Maximum"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__graph_role__measure
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__pivot_role__measure
+msgid "Measure"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__menu_id
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "Menu"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__menu_name
+msgid "Menu Name"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__menu_sequence
+msgid "Menu Priority"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "Menu and Access"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__aggregator__min
+msgid "Minimum"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model,name:axs_report_builder.model_ir_model
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__model_id
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__model_id
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_search
+msgid "Model"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__base_model
+msgid "Model Name"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__x2many_mode
+msgid "Multiple Values"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__alter_op__multiply
+msgid "Multiply by"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,help:axs_report_builder.field_axs_report_line__field_name
+msgid "Name of the field in the generated report model."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__email_next
+msgid "Next Sending"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "No"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__alter_op__none
+msgid "No change"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "No data"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "No data for this report"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__x2many_mode__rows
+msgid "One row per value"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__x2many_mode__list
+msgid "One row, values separated by commas"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "Only Report Builder managers can publish reports."
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "Only administrators (Settings access) can write custom SQL queries."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,help:axs_report_builder.field_axs_report__domain
+msgid "Only the records matching this filter are reported."
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "Open Report"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__default_view
+msgid "Opens On"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__parent_menu_id
+msgid "Parent Menu"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.actions.act_window,help:axs_report_builder.action_axs_report
+msgid ""
+"Pick a model and the fields you need, even from related records, or write a SQL query.\n"
+"                The report gets its own menu with list, pivot and graph views."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report__graph_type__pie
+msgid "Pie"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__pivot_role
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report__default_view__pivot
+msgid "Pivot"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__show_pivot
+msgid "Pivot View"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "Pivot and Graph"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "Please find attached the report %s."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__preview_html
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "Preview"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "Publish"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_import__publish
+msgid "Publish After Import"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "Publish the report first."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report__state__published
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_search
+msgid "Published"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__published_date
+msgid "Published Date"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__sql_column
+msgid "Query Column"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__query_type
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__query_type
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_search
+msgid "Query Type"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__email_partner_ids
+msgid "Recipients"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__domain
+msgid "Records"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__report_id
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "Report"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.actions.act_window,name:axs_report_builder.action_axs_report
+#: model:ir.ui.menu,name:axs_report_builder.menu_report_builder_config
+msgid "Report Builder"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model,name:axs_report_builder.model_axs_report_line
+msgid "Report Builder Column"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:res.groups,name:axs_report_builder.group_report_manager
+msgid "Report Builder Manager"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.module.module,shortdesc:base.module_axs_report_builder
+msgid "Report Builder Pro | Custom Reports from Any Model or SQL"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model,name:axs_report_builder.model_axs_report
+msgid "Report Builder Report"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.actions.server,name:axs_report_builder.ir_cron_send_reports_ir_actions_server
+msgid "Report Builder: send scheduled reports"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__model_name
+msgid "Report Model"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__name
+msgid "Report Name"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "Report Row"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.ui.menu,name:axs_report_builder.menu_axs_report
+#: model:ir.ui.menu,name:axs_report_builder.menu_reports_root
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_list
+msgid "Reports"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__user_id
+msgid "Responsible"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__result_relation
+msgid "Result Relation"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__alter_op__round
+msgid "Round (decimals)"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__pivot_role__row
+msgid "Row"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__email_row_limit
+msgid "Rows in the Excel File"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "Run Query"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid ""
+"SELECT partner.name AS customer, SUM(so.amount_total) AS total\n"
+"FROM sale_order so JOIN res_partner partner ON partner.id = so.partner_id\n"
+"WHERE so.company_id IN {{company_ids}}\n"
+"GROUP BY partner.name"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "Same as the report name"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "Scheduled Email"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,help:axs_report_builder.field_axs_report__user_id
+msgid "Scheduled emails are generated with the access rights of this user."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__search_filter
+msgid "Search"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,help:axs_report_builder.field_axs_report_line__search_filter
+msgid "Searchable from the search bar."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__result_type__selection
+msgid "Selection"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__selection_json
+msgid "Selection Json"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "Send Now"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__email_enabled
+msgid "Send by Email"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_search
+msgid "Sent by Email"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__sequence
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__alter_op__add_days
+msgid "Shift by days"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,help:axs_report_builder.field_axs_report__description
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "Shown to users when the report has no data."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__order_line_id
+msgid "Sort By"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__graph_stacked
+msgid "Stacked"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__state
+msgid "State"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__alter_op__subtract
+msgid "Subtract"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__aggregator__sum
+msgid "Sum"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__field_name
+msgid "Technical Name"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,help:axs_report_builder.field_axs_report_line__field_chain
+msgid ""
+"Technical path of the field, for example partner_id.country_id.name. You can"
+" type a longer chain than the five pickers allow."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields.selection,name:axs_report_builder.selection__axs_report_line__result_type__char
+msgid "Text"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "The model %s is not installed in this database."
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "The query failed: %s"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "The record filter must be a list."
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "The report cannot be executed: %s"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "The report was sent."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__level2_id
+msgid "Then"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__level3_id
+msgid "Then "
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__level4_id
+msgid "Then  "
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__level5_id
+msgid "Then   "
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/wizard/axs_report_import.py:0
+msgid "This is not a Report Builder definition file."
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/wizard/axs_report_import.py:0
+msgid "This is not a Report Builder definition file: %s"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__aggregator
+msgid "Total"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,help:axs_report_builder.field_axs_report_line__aggregator
+msgid "Total shown in the list, the groups and the pivot measures."
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report_line.py:0
+msgid "Totals are only available for numbers (%s)."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,help:axs_report_builder.field_axs_report_line__alter_op
+msgid "Transform numbers and dates before they are displayed."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report_line__result_type
+msgid "Type"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "Unpublish"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "Update Menu and Views"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_import_view_form
+msgid "Upload a file created with Export Definition in another database."
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,field_description:axs_report_builder.field_axs_report__view_ids
+msgid "View"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "Views"
+msgstr ""
+
+#. module: axs_report_builder
+#: model:ir.model.fields,help:axs_report_builder.field_axs_report_line__x2many_mode
+msgid ""
+"What to do when the chain reaches several records (tags, order lines...)."
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "Who can open it"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "Yes"
+msgstr ""
+
+#. module: axs_report_builder
+#. odoo-python
+#: code:addons/axs_report_builder/models/axs_report.py:0
+msgid "You are not allowed to read %s, the source of this report."
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_line_view_form
+msgid "e.g. Customer Country"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_view_form
+msgid "e.g. Sales by Country"
+msgstr ""
+
+#. module: axs_report_builder
+#: model_terms:ir.ui.view,arch_db:axs_report_builder.axs_report_line_view_form
+msgid "partner_id.country_id.name"
+msgstr ""
