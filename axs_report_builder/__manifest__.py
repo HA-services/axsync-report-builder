@@ -1,0 +1,25 @@
+{
+    'name': 'Report Builder Pro | Custom Reports from Any Model or SQL',
+    'summary': 'Build list, pivot and graph reports from any Odoo model and its related records, or from a '
+               'SQL query, with menus, access groups, filters, totals and scheduled Excel emails.',
+    'description': 'AXSync Report Builder Pro: custom reports without development.',
+    'version': '16.0.1.0.0',
+    'category': 'Productivity',
+    'author': 'AXSync',
+    'website': 'https://axsync.com',
+    'support': 'hunain@axsync.com',
+    'license': 'OPL-1',
+    'price': 114.99,
+    'currency': 'USD',
+    'depends': ['base', 'web', 'mail'],
+    'data': [
+        'security/axs_report_security.xml',
+        'security/ir.model.access.csv',
+        'views/axs_report_views.xml',
+        'data/axs_report_data.xml',
+    ],
+    'images': ['static/description/banner.png'],
+    'uninstall_hook': 'uninstall_hook',
+    'installable': True,
+    'application': True,
+}
