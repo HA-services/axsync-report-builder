@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_axs_report_manager,axs.report manager,model_axs_report,group_report_manager,1,1,1,1
+access_axs_report_line_manager,axs.report.line manager,model_axs_report_line,group_report_manager,1,1,1,1
+access_axs_report_import_manager,axs.report.import manager,model_axs_report_import,group_report_manager,1,1,1,1
+access_ir_model_axs_report_manager,ir.model axs report manager,base.model_ir_model,group_report_manager,1,0,0,0
+access_ir_model_fields_axs_report_manager,ir.model.fields axs report manager,base.model_ir_model_fields,group_report_manager,1,0,0,0
